@@ -1,0 +1,2 @@
+DELETE FROM environment_data.measurements;
+ALTER SEQUENCE environment_data.measurement_measurement_id_seq RESTART WITH 1;
